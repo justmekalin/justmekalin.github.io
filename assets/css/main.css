@@ -1980,7 +1980,8 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #424246;
+		background-color: 
+		#90342b;
 		text-align: center;
 		position: fixed;
 		left: 0;
