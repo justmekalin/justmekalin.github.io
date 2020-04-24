@@ -1873,7 +1873,7 @@ input, select, textarea {
 
 	.box {
 		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: none;
 		text-align: center;
 		padding: 2em;
 	}
@@ -1948,7 +1948,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-color: #fff;
+		background-color: white;
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -1957,17 +1957,17 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-image: none;
 			background-color: 
-			#f1f1f1;
+			White;
 		}
 
 		.wrapper.style2 {
-			background-color: #d4d9dd;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: white;
+			text-shadow: 1px 1px 0px white;
 		}
 
 		.wrapper.style3 {
 			background-color: fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			text-shadow: 1px 1px 0px white;
 		}
 
 		
@@ -1981,7 +1981,7 @@ input, select, textarea {
 
 	#nav {
 		background-color: 
-		#90342b;
+		#c88770;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2011,12 +2011,12 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: #212121;
+			color: #f3f5f4;
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
 			border-radius: 8px;
-			color: #fff;
+			color: #201a1c;
 			height: 2.5em;
 			line-height: 2.5em;
 			padding: 0 1.25em;
