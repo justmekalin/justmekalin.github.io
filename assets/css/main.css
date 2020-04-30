@@ -1692,6 +1692,11 @@ input, select, textarea {
 		list-style: disc;
 		padding-left: 1em;
 	}
+	ul.a {
+		list-style-type: circle;
+		text-align: left;
+		color: teal;
+	  }
 
 		ul li {
 			padding-left: 0.5em;
