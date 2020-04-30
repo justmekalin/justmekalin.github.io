@@ -210,10 +210,10 @@ input, select, textarea {
 		}
 
 		h1{
-			font-size: 130px;
-	opacity: 20%;
-	text-align: left;
-	margin-top:-0px;
+			font-size: 90px;
+			opacity: 20%;
+			text-align: left;
+			margin-top:-0px;
 		}
 
 		.resume {
@@ -1508,73 +1508,6 @@ input, select, textarea {
 
 		}
 
-/* Form */
-
-	form label {
-		color: #3e3e3e;
-		font-weight: 700;
-		display: block;
-		margin: 0 0 0.5em 0;
-	}
-
-	form input[type=text],
-	form input[type=email],
-	form input[type=password],
-	form select,
-	form textarea {
-		-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		-webkit-appearance: none;
-		display: block;
-		border: 0;
-		padding: 0.75em;
-		font-size: 1em;
-		border-radius: 8px;
-		border: solid 1px #ddd;
-		background: #fff;
-		color: #bbb;
-		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
-		width: 100%;
-	}
-
-		form input[type=text]:focus,
-		form input[type=email]:focus,
-		form input[type=password]:focus,
-		form select:focus,
-		form textarea:focus {
-			background: #fafafa;
-			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
-		}
-
-	form textarea {
-		height: 15em;
-	}
-
-	form .actions:last-child {
-		margin-bottom: 0;
-	}
-
-	form ::-webkit-input-placeholder {
-		color: #555 !important;
-	}
-
-	form :-moz-placeholder {
-		color: #555 !important;
-	}
-
-	form ::-moz-placeholder {
-		color: #555 !important;
-	}
-
-	form :-ms-input-placeholder {
-		color: #555 !important;
-	}
-
-	form ::-moz-focus-inner {
-		border: 0;
-	}
 
 /* Tables */
 
@@ -1751,7 +1684,6 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: rgb(128, 115, 115) !important;
@@ -1766,28 +1698,24 @@ input, select, textarea {
 					width: 48px;
 				}
 
-				ul.social li a.fa-twitter {
-					background-color: #2DAAE4;
-				}
-
 				ul.social li a.fa-facebook-f {
-					background-color: #3C5A98;
+					background-color: #FAFAFA;
 				}
 
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: #FAFAFA;
 				}
 
 				ul.social li a.fa-github {
 					background-color: #FAFAFA;
 				}
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: #FAFAFA;
 				}
-
+				/*youtube*/
 				ul.social li a.fa-youtube {
-					background-color: #BF2E25;
+					background-color: #FAFAFA;
 				}
 
 
@@ -1882,7 +1810,6 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1909,13 +1836,13 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: white;
-		
+	
 		}
 
 		.wrapper.style3 {
 			background-color: white;
 			padding-right: 25%;
-				padding-left: 25%;
+			padding-left: 25%;
 		
 		}
 
@@ -1927,14 +1854,11 @@ input, select, textarea {
 				text-align: left;
 				
 			}
-			h3 {
+			h4 {
 				text-align: left;
+				opacity: 80%;
+				font-size: 25px;
 			}
-
-			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
-			}
-
 
 /* Nav */
 
@@ -2120,10 +2044,6 @@ input, select, textarea {
 				letter-spacing: 0;
 			}
 
-			h1, h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
-				margin: 0 0 0.4em 0;
-			}
 
 			h1 {
 				font-size: 2.25em;
@@ -2135,14 +2055,6 @@ input, select, textarea {
 			}
 
 				header > p {
-					font-size: 1.25em;
-				}
-
-			footer {
-				margin: 2.5em 0 0 0;
-			}
-
-				footer > p {
 					font-size: 1.25em;
 				}
 
@@ -2158,10 +2070,7 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
+		
 			.button {
 				text-align: center;
 				font-size: 1.2em;
