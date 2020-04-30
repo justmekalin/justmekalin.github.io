@@ -73,6 +73,10 @@ input, select, textarea {
 }
 
 /* Basic */
+.work {
+	width: 100%;
+	height: auto;
+}
 
 	html {
 		box-sizing: border-box;
@@ -151,7 +155,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3e3e3e;
-		margin: 0 0 0.75em 0;
+		margin: none;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1695,7 +1699,7 @@ input, select, textarea {
 	ul.a {
 		list-style-type: circle;
 		text-align: left;
-		color: teal;
+		color: teal
 	  }
 
 		ul li {
