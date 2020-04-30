@@ -1905,8 +1905,8 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: white;
-			margin-left: 15%;
-			margin-right: 15%;
+			padding-right: 25%;
+				padding-left: 25%;
 		
 		}
 
@@ -2057,6 +2057,11 @@ input, select, textarea {
 				padding: 5em 0 5em 0;
 				text-align: center;
 			}
+			.wrapper.style3 {
+				padding-right: 10%;
+				padding-left: 10%;
+			
+			}
 
 	
 		/* Articles */
@@ -2197,41 +2202,7 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
-		/* Box */
-
-			.box {
-				padding: 30px 20px 30px 20px;
-				margin: 0 0 20px 0 !important;
-			}
-
-				.box h3 {
-					margin-bottom: 0.25em;
-				}
-
-				.box .image.centered {
-					margin-bottom: 1em;
-				}
-
-				.box .image.featured {
-					position: relative;
-					left: 20px;
-					top: 20px;
-					margin: -50px 0 50px -40px;
-					width: auto;
-				}
-
-				.box.style1 {
-					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
-				}
-
-				.box.style2 {
-					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
-				}
-
+	
 		/* Wrappers */
 
 			.wrapper {
