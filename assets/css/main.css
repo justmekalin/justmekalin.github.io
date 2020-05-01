@@ -163,10 +163,6 @@ input, select, textarea {
 		color: inherit;
 	}
 
-	h2, h3, h4, h5, h6 {
-		font-weight: 700;
-	}
-
 	h1 {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
@@ -183,6 +179,11 @@ input, select, textarea {
 	}
 
 	h3 {
+		font-size: 1.5em;
+		letter-spacing: -0.015em;
+	}
+	
+	h4 {
 		font-size: 1.5em;
 		letter-spacing: -0.015em;
 	}
@@ -1823,7 +1824,6 @@ input, select, textarea {
 
 	.wrapper {
 		background-color: white;
-		
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
@@ -1836,7 +1836,6 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: white;
-	
 		}
 
 		.wrapper.style3 {
@@ -1846,18 +1845,14 @@ input, select, textarea {
 		
 		}
 
-		.bio {
-				text-align: left;
-			}
-
 			p {
 				text-align: left;
 				
 			}
 			h4 {
 				text-align: left;
-				opacity: 80%;
-				font-size: 25px;
+				font-weight: bold;
+				font-size: 20px;
 			}
 
 /* Nav */
