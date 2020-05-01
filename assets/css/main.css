@@ -1858,8 +1858,8 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: 
-		#141213;
+		background-color: #141213;
+		opacity: 50%;
 		text-align: center;
 		position: fixed;
 		left: 0;
