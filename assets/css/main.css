@@ -1905,6 +1905,7 @@ input, select, textarea {
 			#nav a:hover {
 				color: Black !important;
 				background:#dedbe6;
+				opacity: 50%;
 			}
 
 			#nav a.active {
@@ -2121,7 +2122,6 @@ input, select, textarea {
 			#nav {
 				height: 44px;
 				line-height: 44px;
-				opacity: 50%;
 			}
 
 				#nav a {
