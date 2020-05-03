@@ -114,8 +114,10 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
-		text-decoration: underline;
+		color: black;
+		text-decoration: none;
+		text-shadow: yellow;
+		font-weight: 900px;
 	}
 
 		a:hover {
@@ -1858,7 +1860,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #141213;
+		background-color: gray;
 		opacity: 50%;
 		text-align: center;
 		position: fixed;
@@ -1889,7 +1891,7 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: navy;
+			color: Teal;
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
@@ -1901,7 +1903,7 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: navy !important;
+				color: Black !important;
 				background:#dedbe6;
 			}
 
@@ -2073,15 +2075,6 @@ input, select, textarea {
 				padding: 1em 0 1em 0;
 			}
 
-				input[type="button"].large,
-				input[type="submit"].large,
-				input[type="reset"].large,
-				button.large,
-				.button.large {
-					font-size: 1.2em;
-					letter-spacing: 0;
-				}
-
 		/* Social */
 
 			ul.social {
@@ -2128,6 +2121,7 @@ input, select, textarea {
 			#nav {
 				height: 44px;
 				line-height: 44px;
+				opacity: 50%;
 			}
 
 				#nav a {
