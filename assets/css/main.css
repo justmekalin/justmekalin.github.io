@@ -2,10 +2,6 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html,
 body,
@@ -95,6 +91,7 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*/
 
 article,
 aside,
@@ -124,13 +121,6 @@ q {
 	quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
 
 table {
 	border-collapse: collapse;
@@ -1977,7 +1967,7 @@ h4 {
 
 #nav {
 	background-color: gray;
-	opacity: 50%;
+	opacity: 40%;
 	text-align: center;
 	position: fixed;
 	left: 0;
@@ -2256,7 +2246,4 @@ body>article {
 	#nav a:hover {
 		background-color: transparent;
 	}
-
-
-
 }
