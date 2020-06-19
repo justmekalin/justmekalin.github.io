@@ -823,3 +823,8 @@ body>article {
 		background-color: transparent;
 	}
 }
+
+.mini {
+	float: left;
+	margin-right: 8px;
+}
