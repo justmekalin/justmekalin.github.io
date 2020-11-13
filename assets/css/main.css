@@ -60,7 +60,8 @@ a {
 }
 
 a:hover {
-	color: #43bff0 !important;
+	color: Black !important;
+	font-weight: 600;
 }
 
 a img {
@@ -179,9 +180,15 @@ h1 {
 	}
 
 	.container.medium {
-		width: 75%;
+		width: 100%;
 	}
-
+	.aboutcontainer {
+		width: 100%;
+		margin-left: -25%;
+	}
+	#about {
+		margin-left: -13%;
+	}
 }
 
 @media screen and (max-width: 736px) {
@@ -195,8 +202,7 @@ h1 {
 		width: 100%;
 	}
 
-}
-
+	}
 /* Row */
 
 .row {
@@ -330,6 +336,7 @@ h1 {
 	.row>.off-12-small {
 		margin-left: 100%;
 	}
+
 }
 
 /* Button */
@@ -566,26 +573,20 @@ ul.actions li:first-child {
 	text-align: center;
 }
 
-.wrapper.style1 {
+.wrapper.style1, .wrapper.style2, .wrapper.style3 {
 	background-image: none;
 	background-color:
 		White;
 }
 
-.wrapper.style2 {
-	background-color: white;
-}
 
-.wrapper.style3 {
-	background-color: white;
+.aboutcontainer {
 	padding-right: 25%;
 	padding-left: 25%;
-
 }
 
 p {
 	text-align: left;
-
 }
 
 h4 {
@@ -597,7 +598,7 @@ h4 {
 /* Nav */
 
 #nav {
-	background-color: #ffd1dc;
+	background-color:none;
 	opacity: 100%;
 	text-align: center;
 	position: fixed;
@@ -629,10 +630,10 @@ h4 {
 	transition: background-color .2s ease-in-out;
 	position: relative;
 	display: block;
-	color: white;
+	color: Black;
 	text-decoration: none;
 	outline: 0;
-	font-weight: 500;
+	font-weight: 400;
 	border-radius: 8px;
 	color: BLACK;
 	height: 2.5em;
@@ -642,7 +643,8 @@ h4 {
 }
 
 #nav a:hover {
-	color: WHITE !important;
+	color: Black !important;
+	font-weight: 550;
 	background: #white;
 }
 
@@ -830,3 +832,4 @@ body>article {
 	float: left;
 	margin-right: 8px;
 }
+
