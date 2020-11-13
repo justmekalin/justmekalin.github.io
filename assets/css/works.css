@@ -182,13 +182,6 @@ h1 {
 	.container.medium {
 		width: 100%;
 	}
-	.aboutcontainer {
-		width: 100%;
-		margin-left: -25%;
-	}
-	#about {
-		margin-left: -13%;
-	}
 }
 
 @media screen and (max-width: 736px) {
@@ -579,7 +572,7 @@ ul.actions li:first-child {
 }
 
 
-.aboutcontainer {
+.wrapper.style3 {
 	padding-right: 25%;
 	padding-left: 25%;
 }
