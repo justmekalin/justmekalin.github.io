@@ -39,6 +39,7 @@ body {
 
 
 body,
+
 input,
 textarea,
 select {
@@ -192,6 +193,7 @@ h1 {
 }
 
 @media screen and (max-width: 736px) {
+	html { overflow-x:hidden; }
 
 	.container {
 		width: 100%;
@@ -575,15 +577,7 @@ ul.actions li:first-child {
 .wrapper.style1, .wrapper.style2, .wrapper.style3 {
 	background-image: none;		
 }
-/**Gradiant background option
-.wrapper.style1 {
-	background: linear-gradient(to bottom, #ffffff 0%, #ebfbf4 100%)
-}
-/**about section background**/
-.wrapper.style3 {
-	background: linear-gradient(to top, #ffffff 0%, #ebfbf4 100%)
-}
-**/
+
 .aboutcontainer {
 	padding-right: 25%;
 	padding-left: 25%;
