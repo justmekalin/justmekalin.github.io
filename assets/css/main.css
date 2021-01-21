@@ -573,11 +573,15 @@ ul.actions li:first-child {
 }
 
 .wrapper.style1, .wrapper.style2, .wrapper.style3 {
-	background-image: none;
-	background-color:
-		White;
+	background-image: none;		
 }
-
+.wrapper.style1 {
+	background: linear-gradient(to bottom, #ffffff 0%, #ebfbf4 100%)
+}
+/**about section background**/
+.wrapper.style3 {
+	background: linear-gradient(to top, #ffffff 0%, #ebfbf4 100%)
+}
 
 .aboutcontainer {
 	padding-right: 25%;
@@ -704,6 +708,7 @@ body>article {
 	.wrapper.style3 {
 		padding-right: 10%;
 		padding-left: 10%;
+		
 
 	}
 	#top {
@@ -831,4 +836,5 @@ body>article {
 	float: left;
 	margin-right: 8px;
 }
+
 
