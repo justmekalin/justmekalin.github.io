@@ -1,7 +1,7 @@
 /*logo spin*/
 .mp {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 0%;
   }
   .circle {
     position: relative;
@@ -11,7 +11,8 @@
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
-    margin-top: 50px;
+
+
   
   }
   
