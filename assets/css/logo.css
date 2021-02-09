@@ -5,8 +5,8 @@
   }
   .circle {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 355px;
+    height: 355px;
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
