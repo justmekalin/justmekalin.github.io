@@ -13,6 +13,8 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
 	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="is-preload">
@@ -92,6 +94,7 @@
 	</article>
 
 
+
 	<!-- Work -->
 
 	<article id="work" class="wrapper style2">
@@ -102,20 +105,25 @@
 			<div class="row aln-center">
 
 				<!--Reinventing you-->
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<a href="salon.html"><img class="Daisy" src="images/reinventingYou.png" alt="Daisy"
-								width="135"></a>
-						<h3>Reinventing You</h3>
-						<p>A user experience case study on self-care. Looking at self-care from a new perspective. </p>
-						<div>
-							<button><a href="reinventingyou.html" class="resume">Learn More</a></button>
-						</div>
-					</section>
-				</div>
 
+				<div class="col-4 col-6-medium col-12-small">
+					<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+
+						<section class="box style1">
+							<a href="reinventingyou.html"><img class="Daisy" src="images/reinventingYou.png" alt="Daisy"
+									width="135"></a>
+							<h3>Reinventing You</h3>
+							<p>A user experience case study on self-care. Looking at self-care from a new perspective.
+							</p>
+							<div>
+								<button><a href="reinventingyou.html" class="resume">Learn More</a></button>
+							</div>
+						</section>
+					</div>
+				</div>
 				<!--Paws for orlando-->
 				<div class="col-4 col-6-medium col-12-small">
+					<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
 					<section class="box style1">
 						<a href="pfo.html"><img class="pfo" src="images/pfo.png" alt="pfo" width="140"></a>
 						<h3>Paws for Orlando</h3>
@@ -126,9 +134,11 @@
 						<button><a href="pfo.html" class="resume">Learn More</a></button>
 					</section>
 				</div>
+			</div>
 
 				<!--BlackBook-->
 				<div class="col-4 col-6-medium col-12-small">
+					<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
 					<section class="box style1">
 						<a href="blackbook.html"><img class="Blackbook" src="images/Blackbook.png" alt="BB"
 								width="142"></a>
@@ -138,6 +148,7 @@
 						<button><a href="blackbook.html" class="resume">Learn More</a></button>
 					</section>
 				</div>
+			</div>
 
 
 
@@ -157,6 +168,11 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 
