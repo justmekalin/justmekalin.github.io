@@ -825,7 +825,7 @@ body>article {
 @import url('https://fonts.googleapis.com/css?family=Poppins:700');
 .homeblob {
   margin: 0;
-  width: 180vw;
+  width: 150vw;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -837,7 +837,7 @@ body>article {
 
 h7 {
   color: black;
-  font-size: 16vmin;
+  font-size: 15vmin;
   line-height: 1;
   font-weight: bold;
   letter-spacing: 2px;
@@ -848,7 +848,7 @@ h7 {
 
 h8 {
 	color: white;
-	font-size: 12vmin;
+	font-size: 11vmin;
 	line-height: 1;
 	font-weight: bold;
 	letter-spacing: 2px;
