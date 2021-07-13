@@ -844,7 +844,7 @@ h7 {
   letter-spacing: 2px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  padding-left: 40px;
+
 }
 
 h8 {
@@ -854,7 +854,7 @@ h8 {
 	font-weight: bold;
 	letter-spacing: 2px;
 	font-family: 'Poppins', sans-serif;
-	padding-left: 40px;
+
   }
 
 .blob {
@@ -862,7 +862,7 @@ h8 {
   top: 0;
   left: 0;
   fill: #6dffca;
-  width: 50vmax;
+  width: 40vmax;
   z-index: -1;
   animation: move 10s ease-in-out infinite;
   transform-origin: 50% 50%;
