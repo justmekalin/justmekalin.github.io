@@ -825,8 +825,7 @@ body>article {
 @import url('https://fonts.googleapis.com/css?family=Poppins:700');
 .homeblob {
   margin: 0;
-  padding-top: 500px;
-  width: 100vw;
+  width: 180vw;
   height: 100vh;
   overflow: hidden;
   position: relative;
