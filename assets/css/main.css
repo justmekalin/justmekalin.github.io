@@ -3,7 +3,6 @@
 
 header,
 hgroup,
-menu,
 nav,
 section {
 	display: block;
@@ -707,13 +706,11 @@ body>article {
 }
 
 /* Medium */
-
 @media screen and (max-width: 980px) {
 	#top {
 		text-align: center;
 		padding: 10em 0;
 	}
-
 }
 
 /* Small */
