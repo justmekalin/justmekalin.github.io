@@ -573,7 +573,7 @@ ul.actions li:first-child {
 }
 
 .aboutcontainer {
-	padding-right: 25%;
+	padding-right:none;
 	padding-left: 25%;
 }
 
