@@ -201,6 +201,7 @@ h1 {
 
 	.container.medium {
 		width: 100%;
+		padding-right: none;
 	}
 	}
 /* Row */
